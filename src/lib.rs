@@ -78,10 +78,7 @@ use core::{
     ptr::copy_nonoverlapping, slice,
 };
 
-#[cfg(feature = "std")]
 pub use crate::io::{ReadBytesExt, WriteBytesExt};
-
-#[cfg(feature = "std")]
 mod io;
 
 #[inline]
