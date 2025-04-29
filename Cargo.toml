@@ -1,11 +1,9 @@
 [package]
-name = "byteorder"
-version = "1.5.0"  #:version
+name = "byteorder-core2"
+version = "1.5.0-core2"  #:version
 authors = ["Andrew Gallant <jamslam@gmail.com>"]
-description = "Library for reading/writing numbers in big-endian and little-endian."
-documentation = "https://docs.rs/byteorder"
-homepage = "https://github.com/BurntSushi/byteorder"
-repository = "https://github.com/BurntSushi/byteorder"
+description = "Personal fork based on byteorder PR 184 that adds some core2 support to byteorder "
+repository = "https://github.com/vinceTheProgrammer/byteorder-core2"
 readme = "README.md"
 categories = ["encoding", "parsing", "no-std"]
 keywords = ["byte", "endian", "big-endian", "little-endian", "binary"]
